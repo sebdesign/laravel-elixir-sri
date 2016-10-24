@@ -6,13 +6,13 @@ Generate [Subresource Integrity (SRI)](https://www.w3.org/TR/SRI/) hashes in you
 
 ## Install
 
-```
+```bash
 npm install laravel-elixir-sri --save-dev
 ```
 
 or
 
-```
+```bash
 yarn add laravel-elixir-sri --dev
 ```
 
@@ -71,3 +71,11 @@ As a fallback, if the given file is not found in the `sri.json`, **it will gener
 {{-- Use with asset() function --}}
 <script src="{{ asset('js/app.js') }}" integrity="{{ integrity('js/app.js') }}" crossorigin="anonymous"></script>
 ```
+
+## Credits
+
+- [Matthew Conlen](https://github.com/mathisonian), author of [gulp-sri](https://github.com/mathisonian/gulp-sri)
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
