@@ -1,0 +1,30 @@
+{
+  "name": "laravel-elixir-sri",
+  "version": "1.0.0",
+  "description": "SRI hash generator for Laravel Elixir",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebdesign/laravel-elixir-sri.git"
+  },
+  "keywords": [
+    "SRI",
+    "security",
+    "integrity",
+    "laravel",
+    "elixir",
+    "gulp"
+  ],
+  "author": "Sébastien Nikolaou <info@sebdesign.eu> (http://sebdesign.eu)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebdesign/laravel-elixir-sri/issues"
+  },
+  "homepage": "https://github.com/sebdesign/laravel-elixir-sri",
+  "dependencies": {
+    "gulp-sri": "^0.3.0"
+  }
+}
