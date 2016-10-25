@@ -1,6 +1,6 @@
 {
   "name": "laravel-elixir-sri",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SRI hash generator for Laravel Elixir",
   "main": "index.js",
   "scripts": {
