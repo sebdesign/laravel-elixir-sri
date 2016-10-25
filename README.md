@@ -58,11 +58,11 @@ You can find all the available parameters on `gulp-sri`'s [documentation](https:
 
 ## Usage within Laravel views
 
-First, you need to require the [laravel-sri]('https://github.com/sebdesign/laravel-sri') package in your `composer.json`.
+First, you need to require the [laravel-sri](https://github.com/sebdesign/laravel-sri) package in your `composer.json`.
 
 To reference the generated hashes from the `sri.json` in your views, you may use the `integrity` helper function with the name of the file you are using in your `elixir` or `asset` function.
 
-As a fallback, if the given file is not found in the `sri.json`, **it will generate the appropriate hashes on the fly** for your convenience. Read more on the [laravel-sri]('https://github.com/sebdesign/laravel-sri') repository.
+As a fallback, if the given file is not found in the `sri.json`, **it will generate the appropriate hashes on the fly** for your convenience. Read more on the [laravel-sri](https://github.com/sebdesign/laravel-sri) repository.
 
 ```php
 {{-- Use with elixir() function --}}
